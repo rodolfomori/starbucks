@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px; /* tamanho da fonte */
+}
+
+button {
+    background: #017143; /* background -> fundo do elemento */
+    color: white; /* cor do texto */
+    border-radius: 40px; /* arredondamento da borda */
+    border: none; /* borda do elemento */
+    cursor: pointer; /* cursor do mouse */
+    padding: 10px; /* espaçamento interno */
+}
+
+.logo {
+    width: 80px;
+}
+
+.starbucks {
+    width: 500px;
+}
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.botao-menu:hover{
+    transform: translateY(-25px);
+}

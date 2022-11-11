@@ -13,25 +13,36 @@
 </head>
 
 <body>
+    <div class="circulo"></div>
+
     <img src="./images/logo.png" class="logo">
 
-    <div>
-        <h2>It's not just Coffee <br>
-        It's <span>Starbucks</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum corrupti odit aperiam illum odio voluptatum ea nisi iure vero. Neque tempore sequi nisi, enim vel omnis cumque delectus odit.</p>
-        <button>Deixe o seu Like!</button>
+    <div class="conteudo">
+
+        <div class="caixa-texto">
+            <h2>It's not just Coffee <br>
+                It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum corrupti odit aperiam illum odio
+                voluptatum ea nisi iure vero. Neque tempore sequi nisi, enim vel omnis cumque delectus odit.</p>
+            <button>Deixe o seu Like!</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./images/img1.png" class="starbucks">
+        </div>
+
     </div>
 
-    <div>
-        <img src="./images/img1.png" class="starbucks">
-    </div>
-
-    <div>
-        <img src="./images/thumb1.png" class="botao-menu">
-        <img src="./images/thumb2.png" class="botao-menu">
-        <img src="./images/thumb3.png" class="botao-menu">
+    <div class="menu">
+        <img src="./images/thumb1.png" class="botao-menu"
+            onclick="trocaImagem('./images/img1.png'); trocaCor('#017143')">
+        <img src="./images/thumb2.png" class="botao-menu"
+            onclick="trocaImagem('./images/img2.png'); trocaCor('#eb7495')">
+        <img src="./images/thumb3.png" class="botao-menu"
+            onclick="trocaImagem('./images/img3.png'); trocaCor('#d752b1')">
     </div>
 
 </body>
+<script src="./scripts.js"></script>
 
 </html>
